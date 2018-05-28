@@ -9,6 +9,7 @@ color and text should be customized to fit the page
 
 Link should lead to one of our datenschutz documents
 
+```
 <script>
 window.addEventListener("load", function(){
 window.cookieconsent.initialise({
@@ -27,10 +28,11 @@ window.cookieconsent.initialise({
     "dismiss": "Merci",
     "link": "Link zu policy",
     "href": "www.test.ch"
-  }
+  },
+  "position": "bottom-left"
 })});
 </script>
-
+```
 
 ## Welcome to GitHub Pages
 
