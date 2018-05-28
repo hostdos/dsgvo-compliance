@@ -1,3 +1,37 @@
+## DSGVO Compliance
+
+### Cookie Consent
+cookieconsent files taken from https://github.com/insites/cookieconsent
+
+for use, include both js and css and use the following script for parameters and executing
+
+color and text should be customized to fit the page
+
+Link should lead to one of our datenschutz documents
+
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#64386b",
+      "text": "#ffcdfd"
+    },
+    "button": {
+      "background": "#f8a8ff",
+      "text": "#3f0045"
+    }
+  },
+  "content": {
+    "message": "Text",
+    "dismiss": "Merci",
+    "link": "Link zu policy",
+    "href": "www.test.ch"
+  }
+})});
+</script>
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/hostdos/dsgvo-compliance/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
